@@ -1,0 +1,23 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    text-align: center;
+    padding: 10% 30%;
+}
+#header {
+    margin-bottom: 40px;
+}
+.btn-link {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.submit-btn {
+    margin: 25px 0;
+}
+

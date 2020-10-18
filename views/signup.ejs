@@ -1,0 +1,15 @@
+<%- include("partials/header") %> 
+   <div id="header-signup">
+        <h1 id="main-head-signup">User Signup</h1>
+    </div>
+    <div id="container-fluid border">
+            <form method="POST" action="/signup" id="signup">
+                <label for="email" class="text-danger font-weight-bold">Email :</label>
+                <input type="email" name="email" id="email" class="form-control py-3">
+                <label for="password" class="text-danger font-weight-bold">Password</label> 
+                <input type="password" name="password" id="password" class="form-control py-3"> 
+                <button type="submit" class="btn btn-danger btn-lg btn-block submit-btn">Sign Up</button>  
+            </form>
+    </div>
+
+    <%- include("partials/footer") %> 
